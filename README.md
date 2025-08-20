@@ -38,3 +38,18 @@ To run this project, you have to type the following command.
 python main.py
 ```
 This command runs the code in the default setting.
+
+## Reference
+If you use this code, please cite the following paper.
+```shell
+@article{shim2024accurate,
+  title={Accurate graph classification via two-staged contrastive curriculum learning},
+  author={Shim, Sooyeon and Kim, Junghun and Park, Kahyun and Kang, U},
+  journal={Plos one},
+  volume={19},
+  number={1},
+  pages={e0296171},
+  year={2024},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+```
