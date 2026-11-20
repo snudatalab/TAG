@@ -1,3 +1,20 @@
+"""
+Accurate graph classification via two-staged contrastive curriculum learning (PLOS ONE 2024)
+
+Authors:
+- Sooyeon Shim (syshim77@snu.ac.kr), Seoul National University
+- Junghun Kim (bandalg97@snu.ac.kr), Seoul National University
+- Kahyun Park (kahyun.park@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+evaluate_embedding.py
+    - codes for evaluating graph embeddings with classifiers
+"""
+
 from sklearn import preprocessing
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import GridSearchCV, KFold, StratifiedKFold
